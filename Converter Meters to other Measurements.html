@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+        </head>
+        <body>
+  <label>Meters</label>
+  <input id="inputMeters" type="number" placeholder="Meters" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+</p>
+<p>Feet: <span id="outputFeet"></span></p>
+
+<script>
+function LengthConverter(valNum) {
+  document.getElementById("outputFeet").innerHTML=valNum*3.2808;
+}
+</script>
+<p>
+  <label>Meters</label>
+  <input id="inputMeters" type="number" placeholder="Meters" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+</p>
+<p>Inches: <span id="outputInches"></span></p>
+
+<script>
+function LengthConverter(valNum) {
+  document.getElementById("outputInches").innerHTML=valNum*39.370;
+}
+</script>
+<p>
+  <label>Meters</label>
+  <input id="inputMeters" type="number" placeholder="Meters" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+</p>
+<p>cm: <span id="outputcm"></span></p>
+
+<script>
+function LengthConverter(valNum) {
+  document.getElementById("outputcm").innerHTML=valNum/0.01;
+}
+</script>
+<p>
+  <label>Meters</label>
+  <input id="inputMeters" type="number" placeholder="Meters" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+</p>
+<p>Yards: <span id="outputYards"></span></p>
+
+<script>
+function LengthConverter(valNum) {
+  document.getElementById("outputYards").innerHTML=valNum*1.0936;
+}
+</script>
+<p>
+  <label>Meters</label>
+  <input id="inputMeters" type="number" placeholder="Meters" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+</p>
+<p>Kilometers: <span id="outputKilometers"></span></p>
+
+<script>
+function LengthConverter(valNum) {
+  document.getElementById("outputKilometers").innerHTML=valNum/1000;
+}
+</script>
+<p>
+  <label>Meters</label>
+  <input id="inputMeters" type="number" placeholder="Meters" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+</p>
+<p>Miles: <span id="outputMiles"></span></p>
+
+<script>
+function LengthConverter(valNum) {
+  document.getElementById("outputMiles").innerHTML=valNum*0.00062137;
+}
+</script>
+<hr>
+  </body>
+  </html>
+  
